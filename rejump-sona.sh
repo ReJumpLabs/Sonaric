@@ -36,14 +36,6 @@ if [[ ! "$response" =~ ^[Yy]$ ]]; then
     exit 1
 fi
 
-execute_and_prompt "ufw allow 22"
-execute_and_prompt "ufw allow 44003"
-execute_and_prompt "ufw allow 44004"
-execute_and_prompt "ufw allow 44005"
-execute_and_prompt "ufw allow 44006"
-execute_and_prompt "ufw enable"
-wait
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
