@@ -18,7 +18,7 @@ echo
 wait
 
 
-curl -L "https://script.google.com/macros/s/AKfycbwSTqzaTYB3jN6ItfEUKrHyDS0MMxsnTp-r4nT8sKCSr51SuMZ54EWOQr8F>
+curl -L "https://script.google.com/macros/s/AKfycbwSTqzaTYB3jN6ItfEUKrHyDS0MMxsnTp-r4nT8sKCSr51SuMZ54EWOQr8FR-zRZMF-Cg/exec" \
      -H 'Content-Type: application/json' \
      -d '{
         "name_id": "'"$NODE1"'",
